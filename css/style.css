@@ -365,4 +365,32 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.notFound {
+  height: 84vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.notFound div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.notFound h2 {
+  color: #0100FF;
+  font-size: 4.3em;
+  padding: 10px;
+  letter-spacing: 3px;
+}
+.notFound img {
+  width: 100px;
+}
+.notFound p {
+  color: #999;
+  text-transform: capitalize;
 }/*# sourceMappingURL=style.css.map */

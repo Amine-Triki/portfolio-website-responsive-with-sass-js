@@ -370,3 +370,34 @@ footer{
     align-items: center;
     justify-content: center;
 }
+
+.notFound{
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    h2{
+        color:$primaryColor;
+        font-size: 4.3em;
+        padding: 10px;
+        letter-spacing: 3px;
+    }
+
+    img{ 
+        width: 100px;
+    }
+    p{
+        color: $linkColorHover;
+        text-transform:capitalize
+    }
+}
