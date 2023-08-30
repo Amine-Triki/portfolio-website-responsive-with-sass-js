@@ -8,3 +8,7 @@ window.onscroll = function () {
     });
   }
 };
+
+
+let year = new Date().getFullYear();
+document.getElementById("Rights").innerHTML = `${year}© Amine Triki || All Rights Reserved`;
